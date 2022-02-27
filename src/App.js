@@ -17,7 +17,7 @@ function App() {
         editorValue={editorValue}
         onEditorChange={handleEditorValueChange}
       />
-      <Preview />
+      <Preview currentMarkdown={editorValue} />
     </main>
   );
 }
