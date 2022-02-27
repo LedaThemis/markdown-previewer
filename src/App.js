@@ -22,7 +22,9 @@ function App() {
   );
 }
 
-const defaultEditorText = `Welcome to my React Markdown Previewer!
+const defaultEditorText = `# Welcome to Markdown Previewer!
+
+This project was built (as part of the FreeCodeCamp Curriculum) by [Leda](https://github.com/LedaThemis)
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
