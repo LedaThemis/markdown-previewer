@@ -4,7 +4,7 @@ import Preview from "./components/Preview";
 
 function App() {
   return (
-    <main>
+    <main id="main">
       <Editor />
       <Preview />
     </main>
