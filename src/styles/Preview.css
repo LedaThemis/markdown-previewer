@@ -1,5 +1,7 @@
 #preview-box {
   border: 1px solid black;
+  width: 49vw;
   height: 95vh;
   background-color: white;
+  overflow: auto;
 }
