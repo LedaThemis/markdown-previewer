@@ -6,9 +6,17 @@ import Preview from "./components/Preview";
 
 function App() {
   const [editorValue, setEditorValue] = React.useState(defaultEditorText);
+
+  function handleEditorValueChange(event) {
+    setEditorValue(event.target.value);
+  }
+
   return (
     <main id="main">
-      <Editor editorValue={editorValue} />
+      <Editor
+        editorValue={editorValue}
+        onEditorChange={handleEditorValueChange}
+      />
       <Preview />
     </main>
   );
