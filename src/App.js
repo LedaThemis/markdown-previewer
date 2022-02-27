@@ -8,7 +8,7 @@ function App() {
   const [editorValue, setEditorValue] = React.useState(defaultEditorText);
   return (
     <main id="main">
-      <Editor />
+      <Editor editorValue={editorValue} />
       <Preview />
     </main>
   );
