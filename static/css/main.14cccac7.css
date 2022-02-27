@@ -1,0 +1,2 @@
+body{background-color:#f1f1f1}#main{display:grid;grid-auto-columns:1fr;grid-template-areas:"editor preview";grid-template-columns:1fr 1fr;grid-template-rows:1fr}#editor{font-size:.8rem;letter-spacing:1px;line-height:1.5;margin:0;resize:none}#editor,#preview-box{border:1px solid #000;height:95vh;overflow:auto;padding:5px;width:48.5vw}#preview-box{background-color:#fff;font-family:League Spartan,sans-serif}
+/*# sourceMappingURL=main.14cccac7.css.map*/
