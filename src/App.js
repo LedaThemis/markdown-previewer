@@ -1,8 +1,11 @@
+import React from "react";
+
 import "./styles/App.css";
 import Editor from "./components/Editor.js";
 import Preview from "./components/Preview";
 
 function App() {
+  const [editorValue, setEditorValue] = React.useState(defaultEditorText);
   return (
     <main id="main">
       <Editor />
