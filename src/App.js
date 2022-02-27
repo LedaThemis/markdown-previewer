@@ -1,7 +1,14 @@
 import "./styles/App.css";
+import Editor from "./components/Editor.js";
+import Preview from "./components/Preview";
 
 function App() {
-  return <h1>CRA-TEMPLATE-LEDA</h1>;
+  return (
+    <main>
+      <Editor />
+      <Preview />
+    </main>
+  );
 }
 
 export default App;
