@@ -6,9 +6,11 @@ export default function Editor() {
     <div id="editor-container">
       <label for="editor">Editor:</label>
 
-      <textarea id="editor" name="editor">
-        It was a dark and stormy night...
-      </textarea>
+      <textarea
+        id="editor"
+        name="editor"
+        value="It was a dark and stormy night..."
+      />
     </div>
   );
 }
