@@ -1,4 +1,8 @@
-h1 {
+#main {
   display: grid;
-  place-items: center;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas: "editor preview";
 }

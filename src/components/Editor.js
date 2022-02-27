@@ -1,16 +1,14 @@
 import React from "react";
 import "../styles/Editor.css";
 
-export default function Editor() {
+export default function Editor(props) {
   return (
     <div id="editor-container">
-      <label for="editor">Editor:</label>
+      <label id="editor-label" for="editor">
+        Editor:
+      </label>
 
-      <textarea
-        id="editor"
-        name="editor"
-        value="It was a dark and stormy night..."
-      />
+      <textarea id="editor" name="editor" value={props.editorValue} />
     </div>
   );
 }
