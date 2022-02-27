@@ -8,7 +8,12 @@ export default function Editor(props) {
         Editor:
       </label>
 
-      <textarea id="editor" name="editor" value={props.editorValue} />
+      <textarea
+        id="editor"
+        name="editor"
+        value={props.editorValue}
+        onChange={props.onEditorChange}
+      />
     </div>
   );
 }
