@@ -1,8 +1,8 @@
-textarea {
+#editor {
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
-textarea {
+#editor {
   height: 90vh;
   width: 45vw;
   padding: 10px;
@@ -13,7 +13,7 @@ textarea {
   box-shadow: 1px 1px 1px #999;
 }
 
-label {
+#editor-label {
   display: block;
   margin-bottom: 10px;
 }
